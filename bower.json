@@ -1,0 +1,39 @@
+{
+  "name": "array-includes-all",
+  "description": "Check if an array includes all the elements of another array",
+  "keywords": [
+    "arr",
+    "array",
+    "check",
+    "true",
+    "false",
+    "bool",
+    "boolean",
+    "if",
+    "include",
+    "includes",
+    "have",
+    "has",
+    "contain",
+    "contains"
+  ],
+  "main": "browser.js",
+  "moduleType": "globals",
+  "homepage": "https://github.com/shinnn/array-includes-all",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shinnn/array-includes-all.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "*.yml",
+    "coverage",
+    "node_modules"
+  ]
+}
