@@ -3,7 +3,7 @@ git:
 branches:
   except: /^v\d/
 language: node_js
-node_js: stable
+node_js: node
 script: npm run-script pretest && npm run-script coverage
 after_script:
   - npm install istanbul-coveralls
