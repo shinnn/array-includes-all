@@ -41,7 +41,7 @@ bower install array-includes-all
 
 *array*: `Array`  
 *searchElements*: `Array` (the elements to search for)  
-*fromIndex*: `Array` (the position in the array at which to begin searching)  
+*fromIndex*: `Number` (the position in the array at which to begin searching)  
 Return: `Boolean`
 
 The API is similar to [`Array.prototype.includes.call`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/includes), except that the second argument takes an array of the elements to search for instead of a single element. 
