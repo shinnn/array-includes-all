@@ -1,7 +1,7 @@
 'use strong';
 
 const requireFromString = require('require-from-string');
-const rollup = require('rollup').rollup;
+const {rollup} = require('rollup');
 const test = require('tape');
 
 function runTest(description, arrayIncludesAll) {
@@ -64,4 +64,3 @@ runTest('window.arrayIncludesAll', global.window.arrayIncludesAll);
 rollup({entry: require('./package.json')['jsnext:main']}).then(bundle => {
   runTest('Module exports', requireFromString(bundle.generate({format: 'cjs'}).code));
 });
-
