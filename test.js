@@ -30,19 +30,19 @@ test('arrayIncludesAll()', t => {
 
 	t.throws(
 		() => arrayIncludesAll(1, [1]),
-		/TypeError.*1 is not an array\. The first argument of array-includes-all must be an array\./,
+		/TypeError.*Expected the first argument of array-includes-all to be an array, but got 1 \(number\)\./,
 		'should throw a type error when the first argument is not an array.'
 	);
 
 	t.throws(
 		() => arrayIncludesAll([1], '1'),
-		/TypeError.*1 is not an array\. The second argument of array-includes-all must be an array\./,
+		/TypeError.*Expected the second argument of array-includes-all to be an array, but got 1 \(string\)\./,
 		'should throw a type error when the second argument is not an array.'
 	);
 
 	t.throws(
 		() => arrayIncludesAll([1], []),
-		/RangeError:.*must include at least one value, but recieved an empty array\./,
+		/RangeError:.*Expected the second argument of array-includes-all to include at least one value, but recieved an empty array\./,
 		'should throw a range error when the second argument is an empty array.'
 	);
 

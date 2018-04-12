@@ -5,7 +5,7 @@
 	"repository": "shinnn/array-includes-all",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
 	"scripts": {
-		"prebuild": "eslint --fix --format=codeframe module.mjs test.js",
+		"prebuild": "eslint --fix --format=codeframe index.mjs test.js",
 		"build": "rollup --config=node:module",
 		"pretest": "npm run-script build",
 		"test": "nyc --reporter=html --reporter=text node test.js"
@@ -34,6 +34,9 @@
 		"browser",
 		"client-side"
 	],
+	"dependencies": {
+		"append-type": "^1.0.1"
+	},
 	"devDependencies": {
 		"@shinnn/eslint-config": "^5.4.0",
 		"eslint": "^4.19.1",
