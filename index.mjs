@@ -1,6 +1,6 @@
 /*!
-* array-includes-all | MIT (c) Shinnosuke Watanabe
-* https://github.com/shinnn/array-includes-all
+ * array-includes-all | ISC (c) Shinnosuke Watanabe
+ * https://github.com/shinnn/array-includes-all
 */
 import appendType from 'append-type';
 

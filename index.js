@@ -3,8 +3,8 @@
 var appendType = require('append-type');
 
 /*!
-* array-includes-all | MIT (c) Shinnosuke Watanabe
-* https://github.com/shinnn/array-includes-all
+ * array-includes-all | ISC (c) Shinnosuke Watanabe
+ * https://github.com/shinnn/array-includes-all
 */
 
 function arrayIncludesAll(arr, searchElms, fromIndex) {
