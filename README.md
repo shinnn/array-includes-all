@@ -1,7 +1,7 @@
 # array-includes-all
 
 [![npm version](https://img.shields.io/npm/v/array-includes-all.svg)](https://www.npmjs.com/package/array-includes-all)
-[![Build Status](https://travis-ci.org/shinnn/array-includes-all.svg?branch=master)](https://travis-ci.org/shinnn/array-includes-all)
+[![Build Status](https://travis-ci.com/shinnn/array-includes-all.svg?branch=master)](https://travis-ci.com/shinnn/array-includes-all)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/array-includes-all.svg)](https://coveralls.io/r/shinnn/array-includes-all)
 
 Check if an [`Array`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) includes all the elements of another array
@@ -15,7 +15,7 @@ arrayIncludesAll([1, 2, NaN], [NaN]); //=> true
 
 ## Installation
 
-[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install array-includes-all
